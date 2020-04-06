@@ -1,9 +1,9 @@
 :root {
 	--font: "Gothic A1";
-	--background: #091128;
-	--foreground: #999999;
-	--red: #FE1332;
-	--branch: 1px solid #999999;
+	--background: #2B3252;
+	--foreground: #FFFFFF;
+	--orange: #DAA80E;
+	--branch: 1px solid #EF5455;
 }
 
 html {
@@ -38,7 +38,7 @@ pre {
 }
 
 span {
-	color: var(--red);
+	color: var(--orange);
 }
 
 h1 {
