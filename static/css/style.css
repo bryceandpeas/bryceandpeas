@@ -3,7 +3,8 @@
 	--background: #2B3252;
 	--foreground: #FFFFFF;
 	--orange: #DAA80E;
-	--branch: 1px solid #EF5455;
+	--red: #EF5455;
+	--branch: 1px solid var(--foreground);
 }
 
 html {
@@ -95,7 +96,7 @@ a {
 }
 
 a:hover {
-	color: var(--background);
-	background: var(--foreground);
+	color: var(--red);
+	background: var(--background);
 }
  
