@@ -816,7 +816,13 @@ a:focus {
 
 .leftside-content a {
 	outline: none;
-	color: #fff;
+	color: #959799;
+	text-decoration: none;
+}
+
+.hireme a {
+	outline: none;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
