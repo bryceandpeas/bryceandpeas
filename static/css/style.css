@@ -31,6 +31,13 @@ body  {
     float: left;
 }
 
+.rightside-content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
 .work_project-title:hover {
 	color: #EF5455;
 }
@@ -43,7 +50,7 @@ body  {
     width: 100%;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: scale(0.8) translateY(-50%);
 }
 
 
@@ -708,9 +715,10 @@ a:focus {
 
 .grid-container {
   width: 100%;
-  -webkit-transform: scale(0.8) translateY(50%);
+  -webkit-transform: scale(0.8) translateY(-50%);
   position: relative;
-  transform: scale(0.8) translateY(50%);
+  top: 50%;
+  transform: scale(0.8) translateY(-50%);
 }
 
 
