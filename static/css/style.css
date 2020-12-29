@@ -35,7 +35,7 @@ body  {
 	width: 100%;
 	-webkit-transform: scale(0.8) translateY(50%);
 	position: relative;
-	transform: scale(0.8) translateY(193.5%);
+	transform: scale(0.8) translateY(178.5%);
 	float: right;
 }
 
@@ -325,6 +325,20 @@ a:focus {
 	color: #DAA80E;
 	display: inline;
 	font-size: 2.625em;
+	font-family: "Gothic A1";
+}
+
+.leftside-content h2 {
+	font-weight: 300;
+	color: #DAA80E;
+	display: block;
+	font-family: "Gothic A1";
+}
+
+.leftside-content h3 {
+	font-weight: 300;
+	color: #DAA80E;
+	display: block;
 	font-family: "Gothic A1";
 }
 
