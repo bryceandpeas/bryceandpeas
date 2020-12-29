@@ -20,7 +20,15 @@ body  {
 }
 
 .main-container {
-	/* padding: 2em 2em 2em 2em; */
+    height: 100%;
+    position: absolute;
+}
+
+.leftside-content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
 }
 
 .work_project-title:hover {
@@ -32,11 +40,10 @@ body  {
 }
 
 .header-container {
-	width: 100%;
-	-webkit-transform: scale(0.8) translateY(50%);
-	position: relative;
-	transform: scale(0.8) translateY(178.5%);
-	float: right;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
