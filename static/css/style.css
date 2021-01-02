@@ -387,9 +387,27 @@ a:after,a:before,a>span:after,a>span:before {
 
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
 
-/* Hi */
+	.work-title {
+	    width: 98%;
+	}
+
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+
+	.work-title {
+	    width: 77%;
+	}
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+
+	.work-title {
+	    width: 81%;
+	}
 
 }
 
